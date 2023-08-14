@@ -14,6 +14,7 @@
 		E7E228652A8AD80E003C784A /* ucr_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E228642A8AD80E003C784A /* ucr_appTests.swift */; };
 		E7E2286F2A8AD80E003C784A /* ucr_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E2286E2A8AD80E003C784A /* ucr_appUITests.swift */; };
 		E7E228712A8AD80E003C784A /* ucr_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E228702A8AD80E003C784A /* ucr_appUITestsLaunchTests.swift */; };
+		E7E2287E2A8AD86F003C784A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E2287D2A8AD86F003C784A /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E7E2286A2A8AD80E003C784A /* ucr appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ucr appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E2286E2A8AD80E003C784A /* ucr_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ucr_appUITests.swift; sourceTree = "<group>"; };
 		E7E228702A8AD80E003C784A /* ucr_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ucr_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7E2287D2A8AD86F003C784A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				E7E228532A8AD80C003C784A /* ucr_appApp.swift */,
 				E7E228552A8AD80C003C784A /* ContentView.swift */,
+				E7E2287D2A8AD86F003C784A /* Launch Screen.storyboard */,
 				E7E228572A8AD80E003C784A /* Assets.xcassets */,
 				E7E228592A8AD80E003C784A /* Preview Content */,
 			);
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E2287E2A8AD86F003C784A /* Launch Screen.storyboard in Resources */,
 				E7E2285B2A8AD80E003C784A /* Preview Assets.xcassets in Resources */,
 				E7E228582A8AD80E003C784A /* Assets.xcassets in Resources */,
 			);

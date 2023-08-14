@@ -2,8 +2,6 @@
 //  ContentView.swift
 //  ucr app
 //
-//  Created by Alan Xia on 8/14/23.
-//
 
 import SwiftUI
 
