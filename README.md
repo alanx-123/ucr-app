@@ -1,1 +1,1 @@
-# ucr-app
+# UC Riverside App
