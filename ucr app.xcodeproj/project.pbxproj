@@ -89,20 +89,17 @@
 			isa = PBXGroup;
 			children = (
 				E7A591542AA99CB900B7FB4A /* MainMenuView.swift */,
-				E7A5915C2AA99FE700B7FB4A /* SchoolHeaderView.swift */,
-				E7A5915E2AA99FFD00B7FB4A /* DateView.swift */,
-				E7A591602AA9A01500B7FB4A /* GreetingView.swift */,
-				E7A591622AA9A02C00B7FB4A /* TemperatureView.swift */,
+				E7A591672AA9B68200B7FB4A /* Welcome Views */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		E7A591572AA99D1E00B7FB4A /* Model */ = {
+		E7A591572AA99D1E00B7FB4A /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				E7A591582AA99DA800B7FB4A /* WeatherAPIManager.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		E7A591642AA9B24900B7FB4A /* Controllers */ = {
@@ -111,6 +108,17 @@
 				E7A591652AA9B27800B7FB4A /* WeatherController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E7A591672AA9B68200B7FB4A /* Welcome Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7A5915C2AA99FE700B7FB4A /* SchoolHeaderView.swift */,
+				E7A5915E2AA99FFD00B7FB4A /* DateView.swift */,
+				E7A591622AA9A02C00B7FB4A /* TemperatureView.swift */,
+				E7A591602AA9A01500B7FB4A /* GreetingView.swift */,
+			);
+			path = "Welcome Views";
 			sourceTree = "<group>";
 		};
 		E7E228472A8AD80C003C784A = {
@@ -136,10 +144,10 @@
 		E7E228522A8AD80C003C784A /* ucr app */ = {
 			isa = PBXGroup;
 			children = (
-				E7A591642AA9B24900B7FB4A /* Controllers */,
-				E7A591572AA99D1E00B7FB4A /* Model */,
+				E7A591572AA99D1E00B7FB4A /* Models */,
 				E7A591532AA99C6900B7FB4A /* Views */,
 				E7E228532A8AD80C003C784A /* ucr_appApp.swift */,
+				E7A591642AA9B24900B7FB4A /* Controllers */,
 				E7E2287D2A8AD86F003C784A /* Launch Screen.storyboard */,
 				E7E228572A8AD80E003C784A /* Assets.xcassets */,
 				E7E228592A8AD80E003C784A /* Preview Content */,
