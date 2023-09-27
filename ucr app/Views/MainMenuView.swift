@@ -1,17 +1,11 @@
-//
-//  MainMenuView.swift
-//  ucr app
-//
-//  Created by Alan Xia on 9/6/23.
-//
-
 import SwiftUI
 
 struct MainMenuView: View {
     var body: some View {
         ScrollView{
-            VStack(spacing: 20){
+            VStack(spacing: 15){
                 SchoolHeaderView()
+                DiningHallMenuView()
             }
         }
         .edgesIgnoringSafeArea(.top)

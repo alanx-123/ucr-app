@@ -1,10 +1,3 @@
-//
-//  WeatherController.swift
-//  ucr app
-//
-//  Created by Alan Xia on 9/7/23.
-//
-
 import Foundation
 
 class WeatherController: ObservableObject {
@@ -29,7 +22,7 @@ class WeatherController: ObservableObject {
         if temp < 60 {
             return "Consider wearing a jacket."
         } else if temp >= 60 && temp <= 75 {
-            return "A long-sleeve shirt should be comfortable."
+            return "A long sleeve shirt should be comfortable."
         } else {
             return "It's warm! A t - shirt should be fine."
         }

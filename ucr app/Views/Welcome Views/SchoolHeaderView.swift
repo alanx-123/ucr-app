@@ -15,7 +15,7 @@ struct SchoolHeaderView: View {
             Image("ucr-and-bell-tower")
                 .resizable()
                 .scaledToFill()
-                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 0.45)
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 0.4)
                 .clipped()
                 .overlay(
                     LinearGradient(
