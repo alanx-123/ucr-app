@@ -1,17 +1,9 @@
-//
-//  SchoolHeaderView.swift
-//  ucr app
-//
-//  Created by Alan Xia on 9/6/23.
-//
-
 import Foundation
 import SwiftUI
 
 struct SchoolHeaderView: View {
     var body: some View {
-        ZStack {
-            // Background Image
+        ZStack { //background image
             Image("ucr-and-bell-tower")
                 .resizable()
                 .scaledToFill()
@@ -26,7 +18,6 @@ struct SchoolHeaderView: View {
                 )
                 .edgesIgnoringSafeArea(.all)
             
-            // Date, Greeting, and Temperature Views
             VStack(alignment: .leading, spacing: 10) {
                 DateView()
                 
@@ -39,7 +30,7 @@ struct SchoolHeaderView: View {
             .padding(.bottom, 20)
             .padding(.leading, 20)
             .foregroundColor(.white) 
-            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomLeading) // Align to the bottom left
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomLeading)
         }
     }
 }

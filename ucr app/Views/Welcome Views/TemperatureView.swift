@@ -1,10 +1,3 @@
-//
-//  TemperatureView.swift
-//  ucr app
-//
-//  Created by Alan Xia on 9/6/23.
-//
-
 import Foundation
 import SwiftUI
 

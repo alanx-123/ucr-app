@@ -10,6 +10,11 @@
 		E71998B02ABD767C00A23E75 /* InfoTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71998AF2ABD767C00A23E75 /* InfoTemplateView.swift */; };
 		E71998B22ABD790500A23E75 /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71998B12ABD790500A23E75 /* HorizontalScrollView.swift */; };
 		E71998B62AC01AA700A23E75 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71998B52AC01AA700A23E75 /* SafariView.swift */; };
+		E71998BB2AC5581D00A23E75 /* MiscTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71998BA2AC5581D00A23E75 /* MiscTemplateView.swift */; };
+		E71998C32AC614B900A23E75 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71998C22AC614B900A23E75 /* HeaderView.swift */; };
+		E71998C52AC6A6ED00A23E75 /* MoreToExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71998C42AC6A6ED00A23E75 /* MoreToExploreView.swift */; };
+		E71998CD2AC6AC2B00A23E75 /* LocationTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71998CC2AC6AC2B00A23E75 /* LocationTemplateView.swift */; };
+		E71998CF2AC6AD6800A23E75 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71998CE2AC6AD6800A23E75 /* TemplateView.swift */; };
 		E7A591552AA99CB900B7FB4A /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A591542AA99CB900B7FB4A /* MainMenuView.swift */; };
 		E7A591592AA99DA800B7FB4A /* WeatherAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A591582AA99DA800B7FB4A /* WeatherAPIManager.swift */; };
 		E7A5915D2AA99FE700B7FB4A /* SchoolHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A5915C2AA99FE700B7FB4A /* SchoolHeaderView.swift */; };
@@ -48,6 +53,11 @@
 		E71998AF2ABD767C00A23E75 /* InfoTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTemplateView.swift; sourceTree = "<group>"; };
 		E71998B12ABD790500A23E75 /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
 		E71998B52AC01AA700A23E75 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		E71998BA2AC5581D00A23E75 /* MiscTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscTemplateView.swift; sourceTree = "<group>"; };
+		E71998C22AC614B900A23E75 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E71998C42AC6A6ED00A23E75 /* MoreToExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreToExploreView.swift; sourceTree = "<group>"; };
+		E71998CC2AC6AC2B00A23E75 /* LocationTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTemplateView.swift; sourceTree = "<group>"; };
+		E71998CE2AC6AD6800A23E75 /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
 		E7A591542AA99CB900B7FB4A /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		E7A591582AA99DA800B7FB4A /* WeatherAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIManager.swift; sourceTree = "<group>"; };
 		E7A5915C2AA99FE700B7FB4A /* SchoolHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolHeaderView.swift; sourceTree = "<group>"; };
@@ -96,11 +106,38 @@
 		E71998B72AC01B5300A23E75 /* Elements */ = {
 			isa = PBXGroup;
 			children = (
-				E71998AF2ABD767C00A23E75 /* InfoTemplateView.swift */,
+				E71998C62AC6AA3900A23E75 /* View Templates */,
 				E71998B12ABD790500A23E75 /* HorizontalScrollView.swift */,
 				E71998B52AC01AA700A23E75 /* SafariView.swift */,
+				E71998C22AC614B900A23E75 /* HeaderView.swift */,
 			);
 			path = Elements;
+			sourceTree = "<group>";
+		};
+		E71998BE2AC6122B00A23E75 /* More To Explore Views */ = {
+			isa = PBXGroup;
+			children = (
+				E71998C42AC6A6ED00A23E75 /* MoreToExploreView.swift */,
+			);
+			path = "More To Explore Views";
+			sourceTree = "<group>";
+		};
+		E71998C62AC6AA3900A23E75 /* View Templates */ = {
+			isa = PBXGroup;
+			children = (
+				E71998CE2AC6AD6800A23E75 /* TemplateView.swift */,
+				E71998AF2ABD767C00A23E75 /* InfoTemplateView.swift */,
+				E71998BA2AC5581D00A23E75 /* MiscTemplateView.swift */,
+				E71998CC2AC6AC2B00A23E75 /* LocationTemplateView.swift */,
+			);
+			path = "View Templates";
+			sourceTree = "<group>";
+		};
+		E71998C92AC6AB2500A23E75 /* Campus Eateries Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Campus Eateries Views";
 			sourceTree = "<group>";
 		};
 		E7A591532AA99C6900B7FB4A /* Views */ = {
@@ -110,6 +147,8 @@
 				E71998B72AC01B5300A23E75 /* Elements */,
 				E7A591672AA9B68200B7FB4A /* Welcome Views */,
 				E7A591682AAA5CAB00B7FB4A /* Dining Hall Views */,
+				E71998C92AC6AB2500A23E75 /* Campus Eateries Views */,
+				E71998BE2AC6122B00A23E75 /* More To Explore Views */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,8 +213,8 @@
 			children = (
 				E7A591572AA99D1E00B7FB4A /* Models */,
 				E7A591532AA99C6900B7FB4A /* Views */,
-				E7E228532A8AD80C003C784A /* ucr_appApp.swift */,
 				E7A591642AA9B24900B7FB4A /* Controllers */,
+				E7E228532A8AD80C003C784A /* ucr_appApp.swift */,
 				E7E2287D2A8AD86F003C784A /* Launch Screen.storyboard */,
 				E7E228572A8AD80E003C784A /* Assets.xcassets */,
 				E7E228592A8AD80E003C784A /* Preview Content */,
@@ -344,13 +383,18 @@
 				E7A591612AA9A01500B7FB4A /* GreetingView.swift in Sources */,
 				E7A591592AA99DA800B7FB4A /* WeatherAPIManager.swift in Sources */,
 				E71998B62AC01AA700A23E75 /* SafariView.swift in Sources */,
+				E71998CD2AC6AC2B00A23E75 /* LocationTemplateView.swift in Sources */,
 				E7A5916A2AAC21EE00B7FB4A /* DiningHallMenuView.swift in Sources */,
 				E7A5915D2AA99FE700B7FB4A /* SchoolHeaderView.swift in Sources */,
 				E7A591552AA99CB900B7FB4A /* MainMenuView.swift in Sources */,
 				E71998B22ABD790500A23E75 /* HorizontalScrollView.swift in Sources */,
 				E7A591662AA9B27800B7FB4A /* WeatherController.swift in Sources */,
 				E71998B02ABD767C00A23E75 /* InfoTemplateView.swift in Sources */,
+				E71998BB2AC5581D00A23E75 /* MiscTemplateView.swift in Sources */,
 				E7E228542A8AD80C003C784A /* ucr_appApp.swift in Sources */,
+				E71998CF2AC6AD6800A23E75 /* TemplateView.swift in Sources */,
+				E71998C32AC614B900A23E75 /* HeaderView.swift in Sources */,
+				E71998C52AC6A6ED00A23E75 /* MoreToExploreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
