@@ -13,10 +13,6 @@ struct MiscTemplateView: View {
                 .resizable()
                 .frame(width: 200, height: 150)
                 .mask(TopRoundedRectangle(cornerRadius: 15))
-                .overlay(
-                    TopRoundedRectangle(cornerRadius: 15)
-                        .stroke(Color.white, lineWidth: 2)
-                )
             
             
             // text and optional Icon
@@ -26,7 +22,7 @@ struct MiscTemplateView: View {
                     Text(template.description)
                         .multilineTextAlignment(.center)
                         .foregroundColor(.white)
-                        .font(Font.custom("HelveticaNeue-Bold", size: 22).weight(.bold))
+                        .font(Font.custom("Avenir Next", size: 18).weight(.semibold))
                     
                     if let iconImage = template.icon {  // include icon only if it's not nil
                         iconImage
@@ -42,18 +38,18 @@ struct MiscTemplateView: View {
             RoundedRectangle(cornerRadius: 15)
                 .stroke(Color.white, lineWidth: 2)
         )
-        .background(
+        .background( //this belongs to the bottom portion
             RoundedRectangle(cornerRadius: 15)
-                .fill(Color.gray.opacity(0.8)) // dark blue
+                .fill(Color.blue)
+                .opacity(0.6)
         )
-        .shadow(color: .gray, radius: 5, x: 2, y: 2)
         .onTapGesture {
             withAnimation {
                 showSafari = true
             }
         }
         .sheet(isPresented: $showSafari) {
-            SafariView(url: template.url)
+            SafariController(url: template.url)
         }
     }
 }

@@ -1,4 +1,4 @@
-// HorizontalScrollView: a custom class used to store a horizontal collection of InfoTemplateViews or MiscTemplateViews
+// HorizontalScrollView: a custom class used to store a horizontal collection of InfoTemplateViews
 
 import Foundation
 import SwiftUI

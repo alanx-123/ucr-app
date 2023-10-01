@@ -18,11 +18,11 @@ struct InfoTemplateView: View {
                 .clipShape(RoundedRectangle(cornerRadius: 15))
             
             // text and optional Icon
-            VStack {
+            VStack{
                 Text(template.description)
                     .multilineTextAlignment(.center)
                     .foregroundColor(.white)
-                    .font(Font.custom("HelveticaNeue-Bold", size: 22).weight(.bold))
+                    .font(Font.custom("Avenir Next", size: 22).weight(.bold))
                 
                 if let iconImage = template.icon {  // include icon only if it's not nil
                     iconImage
@@ -33,7 +33,7 @@ struct InfoTemplateView: View {
         }
         .overlay(
             RoundedRectangle(cornerRadius: 15)
-                .stroke(Color.white, lineWidth: 2)
+                .stroke(Color.white, lineWidth: 1)
         )
         .shadow(color: .gray, radius: 5, x: 2, y: 2)
         .onTapGesture {
@@ -42,7 +42,7 @@ struct InfoTemplateView: View {
             }
         }
         .sheet(isPresented: $showSafari) {
-            SafariView(url: template.url)
+            SafariController(url: template.url)
         }
     }
 }

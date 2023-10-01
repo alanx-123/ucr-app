@@ -11,12 +11,13 @@ struct TemplateView {
     let url: URL
     let icon: Image?
     @State var showSafari: Bool = false
+    
 
     // first initializer
     init(image: Image, description: String, urlString: String) {
         self.image = image
         self.description = description
-        self.url = URL(string: urlString) ?? URL(string: "https://www.example.com")!
+        self.url = URL(string: urlString) ?? URL(string: "https://www.error.com")!
         self.icon = nil
     }
 
