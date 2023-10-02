@@ -11,7 +11,7 @@ struct SchoolHeaderView: View {
                 .clipped()
                 .overlay(
                     LinearGradient(
-                        gradient: Gradient(colors: [Color.black.opacity(0.5), Color.black.opacity(0.2)]),
+                        gradient: Gradient(colors: [Color.black.opacity(0.6), Color.black.opacity(0.2)]),
                         startPoint: .bottom,
                         endPoint: .top
                     )

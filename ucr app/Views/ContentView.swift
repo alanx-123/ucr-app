@@ -20,6 +20,13 @@ struct ContentView: View {
                 }
                 .tag(1)
             
+            Text("Events")
+                .tabItem {
+                    Image(systemName: "newspaper")
+                    Text("News")
+                }
+                .tag(1)
+            
             Text("Settings")
                 .tabItem {
                     Image(systemName: "gearshape.fill")
