@@ -21,7 +21,7 @@ struct MoreInfoView: View{
                 Text("See All")
                     .font(.custom("Avenir Next", size: 18))
                     .fontWeight(.medium)
-                Image(systemName: "arrow.right")
+                Image(systemName: "arrowshape.turn.up.left.2.fill")
             }
         }
         .padding(.horizontal, 10)

@@ -10,6 +10,7 @@ struct MainMenuView: View {
                 RefreshmentsView()
                 MoreToExploreView()
             }
+                .padding(.bottom, 15)
         }
         .edgesIgnoringSafeArea(.top)
     }

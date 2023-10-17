@@ -13,7 +13,7 @@ struct RefreshmentsView: View{
                             }) {
                                 Image(systemName: "plus")
                                     .resizable()
-                                    .frame(width: 18, height: 18)
+                                    .frame(width: 20, height: 20)
                                     .foregroundColor(.gray)
                                     .fontWeight(.medium)
                                     .padding(.trailing,20)
@@ -28,6 +28,7 @@ struct RefreshmentsView: View{
                 HorizontalScrollView{
                     LocationTemplateView(template: TemplateView(image: Image("starbucks"), description: "Starbucks", urlString: "https://dining.ucr.edu/campus-dining/market-at-glen-mor/starbucks", icon: Image(systemName: "mappin.circle.fill")), location: "Glen Mor Market")
                     LocationTemplateView(template: TemplateView(image: Image("coffee-bean"), description: "Coffee Bean", urlString: "https://www.coffeebean.com/stores/ca/riverside/900-university-boulevard", icon: Image(systemName: "mappin.circle.fill")), location: "Hub Plaza")
+                    LocationTemplateView(template: TemplateView(image: Image("lollicup"), description: "Lollicup", urlString: "https://dining.ucr.edu/campus-dining/market-at-north-district/lollicup", icon: Image(systemName: "mappin.circle.fill")), location: "North District")
                     LocationTemplateView(template: TemplateView(image: Image("ivans"), description: "Ivan's", urlString: "https://dining.ucr.edu/campus-dining/ivans-at-hinderaker", icon: Image(systemName: "mappin.circle.fill")), location: "Hinderaker Hall")
                     LocationTemplateView(template: TemplateView(image: Image("bytes"), description: "Bytes", urlString: "https://dining.ucr.edu/campus-dining/bytes", icon: Image(systemName: "mappin.circle.fill")), location: "Winston Chung Hall")
                     LocationTemplateView(template: TemplateView(image: Image("emerbees"), description: "Emerbees", urlString: "https://dining.ucr.edu/campus-dining/hub-plaza-dining#Halal", icon: Image(systemName: "mappin.circle.fill")), location: "Materials Science")

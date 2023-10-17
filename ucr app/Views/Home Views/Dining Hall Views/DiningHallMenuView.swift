@@ -16,7 +16,7 @@ struct DiningHallMenuView: View{
                             }) {
                                 Image(systemName: "plus")
                                     .resizable()
-                                    .frame(width: 18, height: 18)
+                                    .frame(width: 20, height: 20)
                                     .foregroundColor(.gray)
                                     .fontWeight(.medium)
                                     .padding(.trailing,20)
