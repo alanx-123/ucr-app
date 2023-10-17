@@ -14,11 +14,18 @@ struct CampusEatsView: View{
                 .frame(height: 2)
                 .opacity(0.5)
             
+            
             HorizontalScrollView{
-                LocationTemplateView(template: TemplateView(image: Image("barn"), description: "The Barn", urlString: "https://dining.ucr.edu/campus-dining/the-barn", icon: Image(systemName: "mappin.circle.fill")), location: "W. Campus Drive")
-                LocationTemplateView(template: TemplateView(image: Image("glasgow"), description: "The Habit", urlString: "https://foodpro.ucr.edu/foodpro/shortmenu.asp?sName=University%20of%20California%2C%20Riverside%20Dining%20Services&locationNum=03&locationName=Glasgow&naFlag=1&_gl=1*1vmy9lj*_ga*MTA5NTkwMzA5My4xNjY2NTc0MDQw*_ga_S8BZQKWST2*MTY5NTUzODQzOC4zMjQuMS4xNjk1NTM4NDQzLjAuMC4w*_ga_Z1RGSBHBF7*MTY5NTUzODQzOC4zMjIuMS4xNjk1NTM4NDQzLjAuMC4w", icon: Image(systemName: "mappin.circle.fill")), location: "Hub Plaza")
-                LocationTemplateView(template: TemplateView(image: Image("glasgow"), description: "Glasgow", urlString: "https://foodpro.ucr.edu/foodpro/shortmenu.asp?sName=University%20of%20California%2C%20Riverside%20Dining%20Services&locationNum=03&locationName=Glasgow&naFlag=1&_gl=1*1vmy9lj*_ga*MTA5NTkwMzA5My4xNjY2NTc0MDQw*_ga_S8BZQKWST2*MTY5NTUzODQzOC4zMjQuMS4xNjk1NTM4NDQzLjAuMC4w*_ga_Z1RGSBHBF7*MTY5NTUzODQzOC4zMjIuMS4xNjk1NTM4NDQzLjAuMC4w", icon: Image(systemName: "mappin.circle.fill")), location: "The Hub")
-                LocationTemplateView(template: TemplateView(image: Image("glasgow"), description: "Glasgow", urlString: "https://foodpro.ucr.edu/foodpro/shortmenu.asp?sName=University%20of%20California%2C%20Riverside%20Dining%20Services&locationNum=03&locationName=Glasgow&naFlag=1&_gl=1*1vmy9lj*_ga*MTA5NTkwMzA5My4xNjY2NTc0MDQw*_ga_S8BZQKWST2*MTY5NTUzODQzOC4zMjQuMS4xNjk1NTM4NDQzLjAuMC4w*_ga_Z1RGSBHBF7*MTY5NTUzODQzOC4zMjIuMS4xNjk1NTM4NDQzLjAuMC4w", icon: Image(systemName: "mappin.circle.fill")), location: "The Hub")
+                LocationTemplateView(template: TemplateView(image: Image("barn"), description: "The Barn", urlString: "https://dining.ucr.edu/campus-dining/the-barn", icon: Image(systemName: "mappin.circle.fill")), location: "W Campus Drive")
+                LocationTemplateView(template: TemplateView(image: Image("habit"), description: "The Habit", urlString: "https://dining.ucr.edu/campus-dining/hub-plaza-dining#habit", icon: Image(systemName: "mappin.circle.fill")), location: "Hub Plaza")
+                LocationTemplateView(template: TemplateView(image: Image("halal-shack"), description: "Panda Express", urlString: "https://www.pandaexpress.com/locations/ca/riverside/900-university-ave", icon: Image(systemName: "mappin.circle.fill")), location: "Hub Plaza")
+                LocationTemplateView(template: TemplateView(image: Image("hibachisan"), description: "Hibachi San", urlString: "https://dining.ucr.edu/campus-dining/hub-plaza-dining#hibachisan", icon: Image(systemName: "mappin.circle.fill")), location: "Hub Plaza")
+                LocationTemplateView(template: TemplateView(image: Image("halal-shack"), description: "The Halal Shack", urlString: "https://dining.ucr.edu/campus-dining/hub-plaza-dining#Halal", icon: Image(systemName: "mappin.circle.fill")), location: "Hub Plaza")
+                LocationTemplateView(template: TemplateView(image: Image("chronic-tacos"), description: "Chronic Tacos", urlString: "https://www.chronictacos.com/restaurant/uc-riverside/900-university-ave", icon: Image(systemName: "mappin.circle.fill")), location: "Hub Plaza")
+                LocationTemplateView(template: TemplateView(image: Image("subway"), description: "Subway", urlString: "https://dining.ucr.edu/campus-dining/hub-plaza-dining#subway", icon: Image(systemName: "mappin.circle.fill")), location: "Hub Plaza")
+                LocationTemplateView(template: TemplateView(image: Image("fry-house"), description: "Fry House", urlString: "https://www.pandaexpress.com/locations/ca/riverside/900-university-ave", icon: Image(systemName: "mappin.circle.fill")), location: "North District")
+                
+                
             }
         }
     }

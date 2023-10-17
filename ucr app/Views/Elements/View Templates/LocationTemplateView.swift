@@ -36,7 +36,7 @@ struct LocationTemplateView: View{
                         .font(Font.custom("Avenir Next", size: 20).weight(.bold))
                     Spacer()
                 }
-                HStack (spacing: 2){
+                HStack (spacing: 3){
                     if let iconImage = template.icon {  // include icon only if it's not nil
                         iconImage
                             .foregroundColor(.white)

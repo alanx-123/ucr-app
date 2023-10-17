@@ -17,5 +17,6 @@ struct HorizontalScrollView<Content: View>: View {
             }
             .padding()
         }
+        .clipped()
     }
 }

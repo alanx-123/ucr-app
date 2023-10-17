@@ -41,7 +41,7 @@ struct MiscTemplateView: View {
         .background( //this belongs to the bottom portion
             RoundedRectangle(cornerRadius: 15)
                 .fill(Color.blue)
-                .opacity(0.6)
+                .opacity(0.8)
         )
         .onTapGesture {
             withAnimation {

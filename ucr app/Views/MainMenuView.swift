@@ -7,6 +7,7 @@ struct MainMenuView: View {
                 SchoolHeaderView()
                 DiningHallMenuView()
                 CampusEatsView()
+                RefreshmentsView()
                 MoreToExploreView()
             }
         }
