@@ -8,6 +8,7 @@ struct MainMenuView: View {
                 DiningHallMenuView()
                 CampusEatsView()
                 RefreshmentsView()
+                StoresView()
                 MoreToExploreView()
             }
                 .padding(.bottom, 15)
