@@ -19,7 +19,7 @@ struct MoreToExploreView: View{
                                     .frame(width: 18, height: 18)
                                     .foregroundColor(.gray)
                                     .fontWeight(.medium)
-                                    .padding(.trailing)
+                                    .padding(.trailing,20)
                             }
             }
             Divider().background(Color.gray)

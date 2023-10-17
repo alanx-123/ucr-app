@@ -18,7 +18,7 @@ struct CampusEatsView: View{
                                     .frame(width: 18, height: 18)
                                     .foregroundColor(.gray)
                                     .fontWeight(.medium)
-                                    .padding(.trailing)
+                                    .padding(.trailing,20)
                             }
 
                 //MoreInfoView(text: "See all", urlString: "https://dining.ucr.edu/campus-dining")
