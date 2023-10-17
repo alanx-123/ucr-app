@@ -3,7 +3,7 @@ import SwiftUI
 struct MainMenuView: View {
     var body: some View {
         ScrollView{
-            VStack(spacing: 12){
+            VStack(spacing: 20){
                 SchoolHeaderView()
                 DiningHallMenuView()
                 CampusEatsView()
