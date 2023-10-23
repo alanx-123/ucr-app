@@ -1,5 +1,6 @@
 import Foundation
 import SwiftUI
+// for dining hall menus
 
 struct InfoTemplateView: View {
     let template: TemplateView

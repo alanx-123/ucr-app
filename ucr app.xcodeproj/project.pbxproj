@@ -18,6 +18,8 @@
 		E71998D62AC9452E00A23E75 /* SafariController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71998D52AC9452E00A23E75 /* SafariController.swift */; };
 		E71998D82AC9460A00A23E75 /* MoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71998D72AC9460A00A23E75 /* MoreInfoView.swift */; };
 		E71998DB2AC94A2200A23E75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71998DA2AC94A2200A23E75 /* ContentView.swift */; };
+		E71998DE2AD4FE8E00A23E75 /* CourseDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71998DD2AD4FE8E00A23E75 /* CourseDatabaseManager.swift */; };
+		E71998E02AD5320800A23E75 /* CourseDatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71998DF2AD5320800A23E75 /* CourseDatabaseController.swift */; };
 		E7A591552AA99CB900B7FB4A /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A591542AA99CB900B7FB4A /* MainMenuView.swift */; };
 		E7A591592AA99DA800B7FB4A /* WeatherAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A591582AA99DA800B7FB4A /* WeatherAPIManager.swift */; };
 		E7A5915D2AA99FE700B7FB4A /* SchoolHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A5915C2AA99FE700B7FB4A /* SchoolHeaderView.swift */; };
@@ -26,6 +28,11 @@
 		E7A591632AA9A02C00B7FB4A /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A591622AA9A02C00B7FB4A /* TemperatureView.swift */; };
 		E7A591662AA9B27800B7FB4A /* WeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A591652AA9B27800B7FB4A /* WeatherController.swift */; };
 		E7A5916A2AAC21EE00B7FB4A /* DiningHallMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A591692AAC21EE00B7FB4A /* DiningHallMenuView.swift */; };
+		E7C040142ADF0A0E004EDBB2 /* StoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C040132ADF0A0E004EDBB2 /* StoresView.swift */; };
+		E7C040172ADF2620004EDBB2 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C040162ADF2620004EDBB2 /* EventsView.swift */; };
+		E7C040192ADF50B3004EDBB2 /* EventsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C040182ADF50B3004EDBB2 /* EventsHeaderView.swift */; };
+		E7C0401B2ADF513F004EDBB2 /* EventsTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C0401A2ADF513F004EDBB2 /* EventsTemplateView.swift */; };
+		E7D81B782ADE41530090D54E /* RefreshmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B772ADE41530090D54E /* RefreshmentsView.swift */; };
 		E7E228542A8AD80C003C784A /* ucr_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E228532A8AD80C003C784A /* ucr_appApp.swift */; };
 		E7E228582A8AD80E003C784A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E228572A8AD80E003C784A /* Assets.xcassets */; };
 		E7E2285B2A8AD80E003C784A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E2285A2A8AD80E003C784A /* Preview Assets.xcassets */; };
@@ -64,6 +71,8 @@
 		E71998D52AC9452E00A23E75 /* SafariController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariController.swift; sourceTree = "<group>"; };
 		E71998D72AC9460A00A23E75 /* MoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoView.swift; sourceTree = "<group>"; };
 		E71998DA2AC94A2200A23E75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E71998DD2AD4FE8E00A23E75 /* CourseDatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDatabaseManager.swift; sourceTree = "<group>"; };
+		E71998DF2AD5320800A23E75 /* CourseDatabaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDatabaseController.swift; sourceTree = "<group>"; };
 		E7A591542AA99CB900B7FB4A /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		E7A591582AA99DA800B7FB4A /* WeatherAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIManager.swift; sourceTree = "<group>"; };
 		E7A5915C2AA99FE700B7FB4A /* SchoolHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolHeaderView.swift; sourceTree = "<group>"; };
@@ -72,6 +81,11 @@
 		E7A591622AA9A02C00B7FB4A /* TemperatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureView.swift; sourceTree = "<group>"; };
 		E7A591652AA9B27800B7FB4A /* WeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherController.swift; sourceTree = "<group>"; };
 		E7A591692AAC21EE00B7FB4A /* DiningHallMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHallMenuView.swift; sourceTree = "<group>"; };
+		E7C040132ADF0A0E004EDBB2 /* StoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresView.swift; sourceTree = "<group>"; };
+		E7C040162ADF2620004EDBB2 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		E7C040182ADF50B3004EDBB2 /* EventsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsHeaderView.swift; sourceTree = "<group>"; };
+		E7C0401A2ADF513F004EDBB2 /* EventsTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTemplateView.swift; sourceTree = "<group>"; };
+		E7D81B772ADE41530090D54E /* RefreshmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshmentsView.swift; sourceTree = "<group>"; };
 		E7E228502A8AD80C003C784A /* ucr app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ucr app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E228532A8AD80C003C784A /* ucr_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ucr_appApp.swift; sourceTree = "<group>"; };
 		E7E228572A8AD80E003C784A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,10 +126,10 @@
 		E71998B72AC01B5300A23E75 /* Elements */ = {
 			isa = PBXGroup;
 			children = (
-				E71998C62AC6AA3900A23E75 /* View Templates */,
 				E71998B12ABD790500A23E75 /* HorizontalScrollView.swift */,
 				E71998C22AC614B900A23E75 /* HeaderView.swift */,
 				E71998D72AC9460A00A23E75 /* MoreInfoView.swift */,
+				E71998C62AC6AA3900A23E75 /* View Templates */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -135,6 +149,7 @@
 				E71998AF2ABD767C00A23E75 /* InfoTemplateView.swift */,
 				E71998CC2AC6AC2B00A23E75 /* LocationTemplateView.swift */,
 				E71998BA2AC5581D00A23E75 /* MiscTemplateView.swift */,
+				E7C0401A2ADF513F004EDBB2 /* EventsTemplateView.swift */,
 			);
 			path = "View Templates";
 			sourceTree = "<group>";
@@ -151,12 +166,11 @@
 			isa = PBXGroup;
 			children = (
 				E71998DA2AC94A2200A23E75 /* ContentView.swift */,
+				E7C040162ADF2620004EDBB2 /* EventsView.swift */,
 				E7A591542AA99CB900B7FB4A /* MainMenuView.swift */,
 				E71998B72AC01B5300A23E75 /* Elements */,
-				E7A591672AA9B68200B7FB4A /* Welcome Views */,
-				E7A591682AAA5CAB00B7FB4A /* Dining Hall Views */,
-				E71998D02AC80C2F00A23E75 /* Campus Eats Views */,
-				E71998BE2AC6122B00A23E75 /* More To Explore Views */,
+				E7D81B792ADE5E6F0090D54E /* Home Views */,
+				E7C040152ADF25FB004EDBB2 /* Events Views */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				E7A591582AA99DA800B7FB4A /* WeatherAPIManager.swift */,
+				E71998DD2AD4FE8E00A23E75 /* CourseDatabaseManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,6 +189,7 @@
 			children = (
 				E7A591652AA9B27800B7FB4A /* WeatherController.swift */,
 				E71998D52AC9452E00A23E75 /* SafariController.swift */,
+				E71998DF2AD5320800A23E75 /* CourseDatabaseController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -195,6 +211,43 @@
 				E7A591692AAC21EE00B7FB4A /* DiningHallMenuView.swift */,
 			);
 			path = "Dining Hall Views";
+			sourceTree = "<group>";
+		};
+		E7C040122ADF09FD004EDBB2 /* Stores Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7C040132ADF0A0E004EDBB2 /* StoresView.swift */,
+			);
+			path = "Stores Views";
+			sourceTree = "<group>";
+		};
+		E7C040152ADF25FB004EDBB2 /* Events Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7C040182ADF50B3004EDBB2 /* EventsHeaderView.swift */,
+			);
+			path = "Events Views";
+			sourceTree = "<group>";
+		};
+		E7D81B762ADE41340090D54E /* Refreshments Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7D81B772ADE41530090D54E /* RefreshmentsView.swift */,
+			);
+			path = "Refreshments Views";
+			sourceTree = "<group>";
+		};
+		E7D81B792ADE5E6F0090D54E /* Home Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7A591672AA9B68200B7FB4A /* Welcome Views */,
+				E7A591682AAA5CAB00B7FB4A /* Dining Hall Views */,
+				E71998D02AC80C2F00A23E75 /* Campus Eats Views */,
+				E7D81B762ADE41340090D54E /* Refreshments Views */,
+				E7C040122ADF09FD004EDBB2 /* Stores Views */,
+				E71998BE2AC6122B00A23E75 /* More To Explore Views */,
+			);
+			path = "Home Views";
 			sourceTree = "<group>";
 		};
 		E7E228472A8AD80C003C784A = {
@@ -391,7 +444,9 @@
 				E7A591632AA9A02C00B7FB4A /* TemperatureView.swift in Sources */,
 				E7A591612AA9A01500B7FB4A /* GreetingView.swift in Sources */,
 				E71998D82AC9460A00A23E75 /* MoreInfoView.swift in Sources */,
+				E7D81B782ADE41530090D54E /* RefreshmentsView.swift in Sources */,
 				E7A591592AA99DA800B7FB4A /* WeatherAPIManager.swift in Sources */,
+				E7C040142ADF0A0E004EDBB2 /* StoresView.swift in Sources */,
 				E71998CD2AC6AC2B00A23E75 /* LocationTemplateView.swift in Sources */,
 				E71998DB2AC94A2200A23E75 /* ContentView.swift in Sources */,
 				E7A5916A2AAC21EE00B7FB4A /* DiningHallMenuView.swift in Sources */,
@@ -401,12 +456,17 @@
 				E7A591662AA9B27800B7FB4A /* WeatherController.swift in Sources */,
 				E71998B02ABD767C00A23E75 /* InfoTemplateView.swift in Sources */,
 				E71998BB2AC5581D00A23E75 /* MiscTemplateView.swift in Sources */,
+				E7C040172ADF2620004EDBB2 /* EventsView.swift in Sources */,
 				E7E228542A8AD80C003C784A /* ucr_appApp.swift in Sources */,
+				E7C040192ADF50B3004EDBB2 /* EventsHeaderView.swift in Sources */,
 				E71998D62AC9452E00A23E75 /* SafariController.swift in Sources */,
+				E7C0401B2ADF513F004EDBB2 /* EventsTemplateView.swift in Sources */,
 				E71998CF2AC6AD6800A23E75 /* TemplateView.swift in Sources */,
 				E71998C32AC614B900A23E75 /* HeaderView.swift in Sources */,
 				E71998D22AC80C6100A23E75 /* CampusEatsView.swift in Sources */,
+				E71998E02AD5320800A23E75 /* CourseDatabaseController.swift in Sources */,
 				E71998C52AC6A6ED00A23E75 /* MoreToExploreView.swift in Sources */,
+				E71998DE2AD4FE8E00A23E75 /* CourseDatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

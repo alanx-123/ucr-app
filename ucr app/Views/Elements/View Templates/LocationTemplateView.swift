@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-// this class is due for a name change
+// for campus eats, refreshments, campus stores
 
 struct LocationTemplateView: View{
     let template: TemplateView
