@@ -4,10 +4,10 @@ import SwiftUI
 struct SchoolHeaderView: View {
     var body: some View {
         ZStack { //background image
-            Image("ucr-and-bell-tower")
+            Image("ucr-header-view")
                 .resizable()
                 .scaledToFill()
-                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 0.4)
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 0.25)
                 .clipped()
                 .overlay(
                     LinearGradient(
@@ -24,10 +24,9 @@ struct SchoolHeaderView: View {
                 GreetingView()
                     .font(.largeTitle)
                     .bold()
-                
                 TemperatureView()
             }
-            .padding(.bottom, 20)
+            .padding(.bottom, 60)
             .padding(.leading, 20)
             .foregroundColor(.white) 
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomLeading)
